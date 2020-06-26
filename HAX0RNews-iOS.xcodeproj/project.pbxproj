@@ -13,6 +13,10 @@
 		354E328E24A5659900ECBA46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 354E328D24A5659900ECBA46 /* Assets.xcassets */; };
 		354E329124A5659900ECBA46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 354E329024A5659900ECBA46 /* Preview Assets.xcassets */; };
 		354E329424A5659900ECBA46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354E329224A5659900ECBA46 /* LaunchScreen.storyboard */; };
+		354E329D24A56CF400ECBA46 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354E329C24A56CF400ECBA46 /* NetworkManager.swift */; };
+		354E329F24A56EAF00ECBA46 /* PostDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354E329E24A56EAF00ECBA46 /* PostDataModel.swift */; };
+		354E32A224A577B200ECBA46 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354E32A124A577B200ECBA46 /* DetailView.swift */; };
+		354E32A424A57CD800ECBA46 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354E32A324A57CD800ECBA46 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		354E329024A5659900ECBA46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		354E329324A5659900ECBA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		354E329524A5659900ECBA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		354E329C24A56CF400ECBA46 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		354E329E24A56EAF00ECBA46 /* PostDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDataModel.swift; sourceTree = "<group>"; };
+		354E32A124A577B200ECBA46 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		354E32A324A57CD800ECBA46 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,8 @@
 			children = (
 				354E328724A5659800ECBA46 /* AppDelegate.swift */,
 				354E328924A5659800ECBA46 /* SceneDelegate.swift */,
-				354E328B24A5659800ECBA46 /* ContentView.swift */,
+				354E329B24A56CDB00ECBA46 /* Models */,
+				354E32A024A5778F00ECBA46 /* Views */,
 				354E328D24A5659900ECBA46 /* Assets.xcassets */,
 				354E329224A5659900ECBA46 /* LaunchScreen.storyboard */,
 				354E329524A5659900ECBA46 /* Info.plist */,
@@ -73,6 +82,25 @@
 				354E329024A5659900ECBA46 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		354E329B24A56CDB00ECBA46 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				354E329C24A56CF400ECBA46 /* NetworkManager.swift */,
+				354E329E24A56EAF00ECBA46 /* PostDataModel.swift */,
+				354E32A324A57CD800ECBA46 /* WebView.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		354E32A024A5778F00ECBA46 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				354E328B24A5659800ECBA46 /* ContentView.swift */,
+				354E32A124A577B200ECBA46 /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				354E329D24A56CF400ECBA46 /* NetworkManager.swift in Sources */,
+				354E32A224A577B200ECBA46 /* DetailView.swift in Sources */,
 				354E328824A5659800ECBA46 /* AppDelegate.swift in Sources */,
 				354E328A24A5659800ECBA46 /* SceneDelegate.swift in Sources */,
+				354E329F24A56EAF00ECBA46 /* PostDataModel.swift in Sources */,
 				354E328C24A5659800ECBA46 /* ContentView.swift in Sources */,
+				354E32A424A57CD800ECBA46 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
