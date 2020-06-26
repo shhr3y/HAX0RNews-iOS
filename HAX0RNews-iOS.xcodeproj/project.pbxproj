@@ -32,6 +32,7 @@
 		354E329E24A56EAF00ECBA46 /* PostDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDataModel.swift; sourceTree = "<group>"; };
 		354E32A124A577B200ECBA46 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		354E32A324A57CD800ECBA46 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		354E32A524A57EA600ECBA46 /* HAX0RNews-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HAX0RNews-iOS.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 		354E328624A5659800ECBA46 /* HAX0RNews-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				354E32A524A57EA600ECBA46 /* HAX0RNews-iOS.entitlements */,
 				354E328724A5659800ECBA46 /* AppDelegate.swift */,
 				354E328924A5659800ECBA46 /* SceneDelegate.swift */,
 				354E329B24A56CDB00ECBA46 /* Models */,
@@ -316,6 +318,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HAX0RNews-iOS/HAX0RNews-iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HAX0RNews-iOS/Preview Content\"";
 				DEVELOPMENT_TEAM = U4N8ZF8AH7;
@@ -327,6 +330,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shrey.HAX0RNews-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -336,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HAX0RNews-iOS/HAX0RNews-iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HAX0RNews-iOS/Preview Content\"";
 				DEVELOPMENT_TEAM = U4N8ZF8AH7;
@@ -347,6 +352,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shrey.HAX0RNews-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
